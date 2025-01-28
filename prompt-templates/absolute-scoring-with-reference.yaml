@@ -1,0 +1,34 @@
+user_template: |-
+  You are tasked with evaluating a response based on a given instruction (which may contain an Input) and a scoring rubric and reference answer that serve as the evaluation standard. Provide a comprehensive feedback on the response quality strictly adhering to the scoring rubric, without any general evaluation. Follow this with a score between 1 and 5, referring to the scoring rubric. Avoid generating any additional opening, closing, or explanations.
+
+  Here are some rules of the evaluation:
+  (1) You should prioritize evaluating whether the response satisfies the provided rubric. The basis of your score should depend exactly on the rubric. However, the response does not need to explicitly address points raised in the rubric. Rather, evaluate the response based on the criteria outlined in the rubric.
+  (2) You should refer to the provided reference answer as a guide for evaluating the response.
+
+  Your reply should strictly follow this format:
+  **Reasoning:** <Your feedback>
+
+  **Result:** <an integer between 1 and 5>
+
+  Here is the data:
+
+  Instruction:
+  ```
+  {user_input}
+  ```
+
+  Response:
+  ```
+  {assistant_response}
+  ```
+
+  Score Rubrics:
+  [{rubric_objective}]
+  Score 1: {rubric_score_1_description}
+  Score 2: {rubric_score_2_description}
+  Score 3: {rubric_score_3_description}
+  Score 4: {rubric_score_4_description}
+  Score 5: {rubric_score_5_description}
+
+  Reference answer:
+  {reference_response}

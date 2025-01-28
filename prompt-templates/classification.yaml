@@ -1,0 +1,27 @@
+user_template: |-
+  You are tasked with evaluating a response based on a given user input and binary scoring rubric that serves as the evaluation standard. Provide comprehensive feedback on the response quality strictly adhering to the scoring rubric, followed by a binary Yes/No judgment. Avoid generating any additional opening, closing, or explanations.
+
+  Here are some rules of the evaluation:
+  (1) You should prioritize evaluating whether the response satisfies the provided rubric. The basis of your score should depend exactly on the rubric. However, the response does not need to explicitly address points raised in the rubric. Rather, evaluate the response based on the criteria outlined in the rubric.
+
+  Your reply must strictly follow this format:
+  **Reasoning:** <Your feedback>
+
+  **Result:** <Yes or No>
+
+  Here is the data:
+
+  Instruction:
+  ```
+  {user_input}
+  ```
+
+  Response:
+  ```
+  {assistant_response}
+  ```
+
+  Score Rubrics:
+  [{rubric_objective}]
+  Yes: {rubric_yes_description}
+  No: {rubric_no_description}
