@@ -21,4 +21,8 @@ Here, we check for the `hallucination` of AI responses i.e. 'Is the information 
 # Contact
 Get in touch with us if there's another use case you'd like to see a cookbook for!
 
-support@atla-ai.com
+<p align="left">
+  <a href="https://x.com/Atla_AI"><img src="https://img.shields.io/badge/Atla_AI-000?color=00bd83&style=plastic&logo=twitter&logoColor=white&label=X"></a>
+  <a href="https://discord.com/invite/qFCMgkGwUK"><img src="https://img.shields.io/discord/1280604142536232972?color=00bd83&style=plastic&label=Discord&logo=discord&logoColor=white"></a>
+  <a href="https://www.linkedin.com/company/atla-ai/"><img src="https://img.shields.io/badge/LinkedIn-Atla_AI-00bd83?style=plastic"></a>
+<br></br>
