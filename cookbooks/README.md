@@ -1,4 +1,4 @@
-# Absolute Scoring Tutorial
+# Absolute Scoring (Tutorial)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/atla-ai/selene-mini/blob/main/cookbooks/HF_Quickstart_Absolute_Scoring.ipynb)
 
@@ -6,13 +6,25 @@ This example gets you started running evals with absolute scores, and does so on
 
 Here, we evaluate the `completeness` of AI responses i.e. 'Does the response provide a sufficient explanation?'
 
-# Hallucination Scoring Tutorial
+# Hallucination Scoring (Tutorial)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/atla-ai/selene-mini/blob/main/cookbooks/HF_Quickstart_Hallucination.ipynb)
 
 This example gets you started detecting hallucinations, and runs over a sample set from the public benchmark [RAGTruth](https://arxiv.org/abs/2401.00396) benchmark - a large-scale corpus of naturally generated hallucinations, featuring detailed word-level annotations specifically designed for retrieval-augmented generation (RAG) scenarios.
 
 Here, we check for the `hallucination` of AI responses i.e. 'Is the information provided in the response directly supported by the context given in the related passages?'
+
+# Using Selene Mini with DeepEval (Tutorial)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/atla-ai/selene-mini/blob/main/cookbooks/DeepEval_Quickstart.ipynb)
+
+This example gets you started running evaluations with DeepEval’s plug-and-play metrics / prompts using Selene Mini. We load our model using HF Transformers and mock the evaluation of a RAG QA Chatbot, assessing it on three metrics: **Context Relevance, Groundedness, and Answer Relevance.**
+
+These evaluations help detect hallucinations in LLM responses by ensuring that:
+
+1. **Context is relevant.**
+2. **Responses are grounded.**
+3. **Answers align with user queries.**
 
 # Contact
 Get in touch with us if there's another use case you'd like to see a cookbook for!
