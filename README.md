@@ -20,7 +20,7 @@
 🛝 <a href="https://hf.co/spaces/AtlaAI/selene">Playground</a> | 
 📄 <a href="https://huggingface.co/spaces/AtlaAI/selene-1-mini-tech-report">Technical report</a> | 
 💻 <a href="https://github.com/atla-ai/selene-mini">GitHub</a> | 
-👀 <a href="https://www.atla-ai.com/sign-up-waitlist?utm_source=github&utm_medium=community&utm_campaign=WL_GH_all_communitypost_sel1minilaunch"><strong>Sign up for the API</strong></a>
+👀 <a href="https://www.atla-ai.com/sign-up?utm_source=github&utm_medium=community&utm_campaign=WL_GH_all_communitypost_sel1minilaunch"><strong>Sign up for the API</strong></a>
 </p>
 
 ## [Selene Mini]((https://huggingface.co/AtlaAI/Selene-1-Mini-Llama-3.1-8B))
